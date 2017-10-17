@@ -154,4 +154,298 @@
           }
       }
    }
+   //预约
+   .content-yuyue{
+       border-bottom: 0.2rem solid #f4f4f4;
+       width: 100%;
+//     height: 0.42rem;
+      .yuyue{
+          margin: 0.32rem 0;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: 0.42rem;
+          border-left: 0.05rem solid #3ac994;
+          .span1{
+              padding-left: 0.12rem;
+              padding-right: 0.22rem;
+              font-size: 0.36rem;
+              color: #000000;
+          }
+          span{font-size: 0.24rem;color: #999999;}
+      }
+      .zhuangxiu-k{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin: 0 auto;
+          width: 5.87rem;
+          input{
+              padding-left: 0.2rem;
+              width: 5.65rem;
+              height: 0.7rem;
+              font-size: 0.28rem;
+              color: #cacaca;
+              border: 0.01rem #eeeeee solid;
+              border-radius: 0.05rem;
+              margin-top: 0.25rem;
+          }
+             .zhuangxiu-btn{
+                 margin-bottom: 0.3rem;
+                .btn-button{
+                     background: #feb605;
+                 width: 5.85rem;
+                 height: 0.7rem;
+                      color: white;
+                      font-size: 0.36rem;
+                } 
+             
+          }
+      }
+      
+   }
+   //shejishi
+   .content-shejishi{
+       border-bottom: 0.2rem solid #f4f4f4;
+       width: 100%;
+//     height: 0.42rem;
+      .shejishi{
+          margin: 0.32rem 0;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: 0.42rem;
+          border-left: 0.05rem solid #3ac994;
+          .span1{
+              padding-left: 0.12rem;
+              padding-right: 0.22rem;
+              font-size: 0.36rem;
+              color: #000000;
+          }
+      }
+      .shejishi-tw{
+         width: 7.15rem;
+         height: 2.43rem;
+         display: flex;
+         justify-content: space-around;
+         figure{
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             align-items: center;
+             width: 1.4rem;
+             height: 2.43rem;
+             img{width: 1.4rem;height: 1.4rem;}
+             figcaption{
+                 height: 0.8rem;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-between;
+                 text-align: center;
+                .sjs{
+                    font-size: 0.36rem;
+                    color: #000000;
+                    width: 1.2rem;
+                    height: 0.36rem;
+                    overflow: hidden;
+                    }
+                .yx{
+                    overflow: hidden;
+                    width: 1.2rem;
+                    height: 0.32rem;
+                    background: #39c893;
+                    font-size: 0.24rem;
+                    color: white;
+                    }
+             }
+         }
+      }
+      .shejizhe-huan{
+          margin: 0.36rem auto;
+          width: 7.15rem;
+          height: .7rem;
+          display: flex;
+          p{
+            width: 50%;
+            height: 100%;
+            border: .01rem solid #ececec;
+            text-align: center;
+            line-height: .2rem;
+            .span1{font-size: .28rem;color: #39c893;}
+            .span2{color: #39c893;}
+          };
+      }
+      
+   }
+   //效果
+   .content-xiaoguo{
+       width: 100%;
+       border-bottom: 0.2rem solid #f4f4f4;
+//     height: 12.54rem;
+        .shejishi{
+                  margin: 0.32rem 0;
+                  display: flex;
+                  align-items: center;
+                  width: 100%;
+                  height: 0.42rem;
+                  border-left: 0.05rem solid #3ac994;
+                  .span1{
+                      padding-left: 0.12rem;
+                      padding-right: 0.22rem;
+                      font-size: 0.36rem;
+                      color: #000000;
+                  }
+              }
+       .tuwen-top{
+           width: 7.16rem;
+           height: 5.06rem;
+           figure{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                img{width:100%;height: 100%;};
+                figcaption{
+                    position: absolute;
+                    font-size: 0.27rem;
+                    width: 0.7rem;
+                    height: 0.42rem;
+                    background: rgba(0,0,0,0.5);
+                    right: .14rem;
+                    bottom: .1rem;
+                    border-radius: 0.05rem;
+                    color: white;
+                    text-align: center;
+                    line-height: 0.42rem;
+                }
+            }
+       }
+       .tuwen-bottom{
+           width: 7.16rem;
+           height: 5.08rem;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           figure{
+                position: relative;
+                width: 3.55rem;
+                height: 2.52rem;
+                img{width:100%;height: 100%;};
+                figcaption{
+                    position: absolute;
+                    font-size: 0.27rem;
+                    width: 0.7rem;
+                    height: 0.42rem;
+                    background: rgba(0,0,0,0.5);
+                    right: .13rem;
+                    bottom: .1rem;
+                    border-radius: 0.05rem;
+                    color: white;
+                    text-align: center;
+                    line-height: 0.42rem;
+                }
+                .tu1,.tu3{right: 0.07rem;}
+            }
+            
+       }
+       .shejizhe-huan{
+          margin: 0.36rem auto;
+          width: 7.15rem;
+          height: .7rem;
+          display: flex;
+          p{
+            width: 50%;
+            height: 100%;
+            border: .01rem solid #ececec;
+            text-align: center;
+            line-height: .2rem;
+            .span1{font-size: .28rem;color: #39c893;}
+            .span2{color: #39c893;}
+          };
+      }
+   }
+   
+//gongdi
+    .content-gongdi{
+       width: 100%;
+       border-bottom: 0.2rem solid #f4f4f4;
+//     height: 12.54rem;
+        .shejishi{
+                  margin: 0.32rem 0;
+                  display: flex;
+                  align-items: center;
+                  width: 100%;
+                  height: 0.42rem;
+                  border-left: 0.05rem solid #3ac994;
+                  .span1{
+                      padding-left: 0.12rem;
+                      padding-right: 0.22rem;
+                      font-size: 0.36rem;
+                      color: #000000;
+                  }
+              }
+       .tuwen-top{
+          figure{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                img{width:100%;height: 100%;};
+                figcaption{
+                    position: absolute;
+                    font-size: 0.27rem;
+                    width: 0.7rem;
+                    height: 0.42rem;
+                    background: rgba(0,0,0,0.5);
+                    right: .14rem;
+                    bottom: .1rem;
+                    border-radius: 0.05rem;
+                    color: white;
+                    text-align: center;
+                    line-height: 0.42rem;
+                }
+            }
+       }
+       .gongdi-wen{
+           margin: 0.3rem 0 0.4rem 0;
+           display: flex;
+           align-items: center;
+           .span1{
+               width: 1.84rem;
+               height: 0.3rem;
+               font-size: 0.28rem;
+               display: inline-block;
+               overflow: hidden;
+               color: #000;
+               margin: 0 0.28rem 0 0.23rem;
+           };
+           .span2{
+               width: 1.13rem;
+               height: 0.31rem;
+               font-size: 0.25rem;
+               display: inline-block;
+               overflow: hidden;
+               color: white;
+               text-align: center;
+               line-height: 0.31rem;
+               border-radius: 0.05rem;
+               background: #3ac994;
+               
+           }
+       }
+       .gongdi-huan{
+          margin: 0.36rem auto;
+          width: 7.15rem;
+          height: .7rem;
+          display: flex;
+          p{
+            width: 50%;
+            height: 100%;
+            border: .01rem solid #ececec;
+            text-align: center;
+            line-height: .2rem;
+            .span1{font-size: .28rem;color: #39c893;}
+            .span2{color: #39c893;}
+          };
+      }
+   }   
+   
 }
